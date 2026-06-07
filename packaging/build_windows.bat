@@ -7,6 +7,7 @@ if exist "assets\icons\typeforge.ico" (
 )
 
 pyinstaller ^
+  --onefile ^
   --windowed ^
   --name TypeForge ^
   %ICON_FLAG% ^
